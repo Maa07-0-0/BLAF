@@ -1,0 +1,359 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 16447,
+      "max": [
+        0.14785000681877136,
+        0.10479699820280075,
+        0.21901999413967133
+      ],
+      "min": [
+        0.06974499672651291,
+        -0.1112700030207634,
+        -0.0015140000032261014
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 197364,
+      "componentType": 5126,
+      "count": 16447,
+      "max": [
+        1.0,
+        0.9999992847442627,
+        0.9999989867210388
+      ],
+      "min": [
+        -1.0,
+        -0.9999995827674866,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 16447,
+      "max": [
+        0.999917209148407,
+        0.9999892711639404,
+        0.9999420046806335,
+        1.0
+      ],
+      "min": [
+        -0.9999948143959045,
+        -0.9999678134918213,
+        -0.9996820092201233,
+        -1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 16447,
+      "max": [
+        0.9942430257797241,
+        0.9901720285415649
+      ],
+      "min": [
+        0.012214000336825848,
+        0.0005970000056549907
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 80736,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 394728,
+      "componentType": 5126,
+      "count": 16442,
+      "max": [
+        -0.06974700093269348,
+        0.10479699820280075,
+        0.21901999413967133
+      ],
+      "min": [
+        -0.14785200357437134,
+        -0.1112700030207634,
+        -0.0015140000032261014
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 592032,
+      "componentType": 5126,
+      "count": 16442,
+      "max": [
+        1.0,
+        0.9999992251396179,
+        0.9999989867210388
+      ],
+      "min": [
+        -1.0,
+        -0.9999995827674866,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 263152,
+      "componentType": 5126,
+      "count": 16442,
+      "max": [
+        0.9999948143959045,
+        0.9999939203262329,
+        0.9999419450759888,
+        1.0
+      ],
+      "min": [
+        -0.999917209148407,
+        -0.9999701976776123,
+        -0.9996916055679321,
+        -1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 131576,
+      "componentType": 5126,
+      "count": 16442,
+      "max": [
+        0.9942430257797241,
+        0.9901720285415649
+      ],
+      "min": [
+        0.012214000336825848,
+        0.0005970000056549907
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 322944,
+      "componentType": 5125,
+      "count": 80736,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "🎩Gentleman🌹1940 (https://sketchfab.com/gentleman1930)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/luxy-scarpin-luxury-heels-model-fixed-3411f15f690c4461a29d52de9142e9b7",
+      "title": "Luxy Scarpin - Luxury Heels (Model FIxed)"
+    },
+    "generator": "Sketchfab-16.14.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 645888,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 263112,
+      "byteOffset": 645888,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 789336,
+      "byteOffset": 909000,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 526224,
+      "byteOffset": 1698336,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 2224560,
+      "uri": "scene.bin"
+    }
+  ],
+  "extensionsUsed": [
+    "KHR_materials_specular"
+  ],
+  "images": [
+    {
+      "uri": "textures/Scarpin_X_Strap_baseColor.png"
+    },
+    {
+      "uri": "textures/Scarpin_X_Strap_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/Scarpin_X_Strap_normal.png"
+    },
+    {
+      "uri": "textures/Scarpin_X_Strap_specularf0.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularColorFactor": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specularFactor": 1.0,
+          "specularTexture": {
+            "index": 3
+          }
+        }
+      },
+      "name": "Scarpin_X_Strap",
+      "normalTexture": {
+        "index": 2
+      },
+      "occlusionTexture": {
+        "index": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        },
+        "roughnessFactor": 0.0
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Object_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Object_1",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 6,
+            "POSITION": 5,
+            "TANGENT": 7,
+            "TEXCOORD_0": 8
+          },
+          "indices": 9,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2,
+        3
+      ],
+      "name": "Scarpins - X Strap Finished.obj.cleaner.materialmerger.gles"
+    },
+    {
+      "mesh": 0,
+      "name": "Object_2"
+    },
+    {
+      "mesh": 1,
+      "name": "Object_3"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    },
+    {
+      "sampler": 0,
+      "source": 3
+    }
+  ]
+}

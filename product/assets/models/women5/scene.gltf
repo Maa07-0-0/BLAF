@@ -1,0 +1,494 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 4004,
+      "max": [
+        1.062589168548584,
+        3.358233690261841,
+        4.419596195220947
+      ],
+      "min": [
+        -1.0814411640167236,
+        -3.358233690261841,
+        -0.9897507429122925
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 48048,
+      "componentType": 5126,
+      "count": 4004,
+      "max": [
+        0.9989633560180664,
+        0.9995032548904419,
+        0.9997119307518005
+      ],
+      "min": [
+        -0.9995533227920532,
+        -0.9995032548904419,
+        -0.9997608661651611
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 4004,
+      "max": [
+        0.9998140335083008,
+        1.0,
+        0.9998178482055664,
+        1.0
+      ],
+      "min": [
+        -0.9821513295173645,
+        -1.0,
+        -0.9998377561569214,
+        -1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 4004,
+      "max": [
+        0.9954192638397217,
+        1.0
+      ],
+      "min": [
+        0.006474856752902269,
+        0.0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 32032,
+      "componentType": 5126,
+      "count": 4004,
+      "max": [
+        0.9954192638397217,
+        1.0
+      ],
+      "min": [
+        0.006474856752902269,
+        0.0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 64064,
+      "componentType": 5126,
+      "count": 4004,
+      "max": [
+        0.9954192638397217,
+        1.0
+      ],
+      "min": [
+        0.006474856752902269,
+        0.0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 20928,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 96096,
+      "componentType": 5126,
+      "count": 31779,
+      "max": [
+        0.809491753578186,
+        2.861114263534546,
+        4.776797294616699
+      ],
+      "min": [
+        -1.0476404428482056,
+        -2.861114263534546,
+        -0.7691164016723633
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 477444,
+      "componentType": 5126,
+      "count": 31779,
+      "max": [
+        1.0,
+        1.0,
+        0.9997162818908691
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 64064,
+      "componentType": 5126,
+      "count": 31779,
+      "max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -0.9988528490066528,
+        -1.0,
+        -0.9999881982803345,
+        -1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 96096,
+      "componentType": 5126,
+      "count": 31779,
+      "max": [
+        0.6254392862319946,
+        0.9989943504333496
+      ],
+      "min": [
+        0.004525035619735718,
+        0.0023467557039111853
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 350328,
+      "componentType": 5126,
+      "count": 31779,
+      "max": [
+        0.6254392862319946,
+        0.9989943504333496
+      ],
+      "min": [
+        0.004525035619735718,
+        0.0023467557039111853
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 604560,
+      "componentType": 5126,
+      "count": 31779,
+      "max": [
+        0.6254392862319946,
+        0.9989943504333496
+      ],
+      "min": [
+        0.004525035619735718,
+        0.0023467557039111853
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 83712,
+      "componentType": 5125,
+      "count": 179256,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "innsvx (https://sketchfab.com/innsvx)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/miumiu-baby-pink-satin-ballet-pumps-heel-a1c40b55e4464a92b4827551c400adce",
+      "title": "MiuMiu baby pink satin ballet pumps heel"
+    },
+    "generator": "Sketchfab-16.14.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 800736,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 858792,
+      "byteOffset": 800736,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 858792,
+      "byteOffset": 1659528,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 572528,
+      "byteOffset": 2518320,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 3090848,
+      "uri": "scene.bin"
+    }
+  ],
+  "extensionsRequired": [
+    "KHR_materials_pbrSpecularGlossiness"
+  ],
+  "extensionsUsed": [
+    "KHR_materials_pbrSpecularGlossiness"
+  ],
+  "images": [
+    {
+      "uri": "textures/shoe_base_diffuse.png"
+    },
+    {
+      "uri": "textures/shoe_base_normal.png"
+    },
+    {
+      "uri": "textures/details_diffuse.png"
+    },
+    {
+      "uri": "textures/details_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseFactor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseTexture": {
+            "index": 0
+          },
+          "glossinessFactor": 0.1788854381999832,
+          "specularFactor": [
+            0.26666747936755614,
+            0.26666747936755614,
+            0.26666747936755614
+          ]
+        }
+      },
+      "name": "shoe_base",
+      "normalTexture": {
+        "index": 1
+      }
+    },
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseFactor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseTexture": {
+            "index": 2
+          },
+          "glossinessFactor": 0.1788854381999832,
+          "specularFactor": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "name": "details",
+      "normalTexture": {
+        "index": 3
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "shoebase_shoe base_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4,
+            "TEXCOORD_2": 5
+          },
+          "indices": 6,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "shoebase_details_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 8,
+            "POSITION": 7,
+            "TANGENT": 9,
+            "TEXCOORD_0": 10,
+            "TEXCOORD_1": 11,
+            "TEXCOORD_2": 12
+          },
+          "indices": 13,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.009999999776482582,
+        0.0,
+        0.0,
+        -0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "miumiu.fbx"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4,
+        5
+      ],
+      "matrix": [
+        188.5098114013672,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -7.673563129264962e-06,
+        -47.0999946594232,
+        0.0,
+        0.0,
+        48.87993240356381,
+        -7.963551795815517e-06,
+        0.0,
+        13.426966667175293,
+        50.90529251098633,
+        0.0,
+        1.0
+      ],
+      "name": "shoebase"
+    },
+    {
+      "mesh": 0,
+      "name": "shoebase_shoe base_0"
+    },
+    {
+      "mesh": 1,
+      "name": "shoebase_details_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    },
+    {
+      "sampler": 0,
+      "source": 3
+    }
+  ]
+}
