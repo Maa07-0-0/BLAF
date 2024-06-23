@@ -54,6 +54,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Set up a rendering loop using the Three.js renderer to continuously render the AR scene
     renderer.setAnimationLoop(() => {
+      // Rotate the model around its vertical axis (Y-axis)
+      men1.scene.rotation.y += 0.01;
+
+      // Render the scene
       renderer.render(scene, camera);
     });
   };
