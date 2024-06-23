@@ -1,0 +1,11 @@
+Model Information:
+* title:	Leather shoes
+* source:	https://sketchfab.com/3d-models/leather-shoes-c2a5343bf18949fc8d6815034ec7f87d
+* author:	kenprol (https://sketchfab.com/kenprol)
+
+Model License:
+* license type:	CC-BY-NC-SA-4.0 (http://creativecommons.org/licenses/by-nc-sa/4.0/)
+* requirements:	Author must be credited. No commercial use. Modified versions must have the same license.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Leather shoes" (https://sketchfab.com/3d-models/leather-shoes-c2a5343bf18949fc8d6815034ec7f87d) by kenprol (https://sketchfab.com/kenprol) licensed under CC-BY-NC-SA-4.0 (http://creativecommons.org/licenses/by-nc-sa/4.0/)
