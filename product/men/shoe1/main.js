@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import { loadGLTF, loadAudio } from "../../libs/loader.js"; 
 const THREE = window.MINDAR.IMAGE.THREE; 
 
@@ -17,14 +16,14 @@ const { renderer, scene, camera } = mindarThree;
 const light = new THREE.HemisphereLight(0xffffff, 0xbbbbff, 1); 
 scene.add(light);
 
-// Load a 3D model (raccoon) using the loadGLTF func on and configure its scale and position 
-const raccoon = await loadGLTF('../../assets/models/men1/scene.gltf'); 
-raccoon.scene.scale.set(0.1, 0.1, 0.1); 
-raccoon.scene.position.set(0, -0.4, 0); 
+// Load a 3D model (men1) using the loadGLTF func on and configure its scale and position 
+const men1 = await loadGLTF('../../assets/models/men1/scene.gltf'); 
+men1.scene.scale.set(0.1, 0.1, 0.1); 
+men1.scene.position.set(0, -0.4, 0); 
 
-// Add an AR anchor for the raccoon and atach the raccoon model to it 
-const raccoonAnchor = mindarThree.addAnchor(0); 
-raccoonAnchor.group.add(raccoon.scene); 
+// Add an AR anchor for the men1 and atach the men1 model to it 
+const men1Anchor = mindarThree.addAnchor(0); 
+men1Anchor.group.add(men1.scene); 
 
 // Start the MindARThree AR experience 
 await mindarThree.start(); 
@@ -37,32 +36,6 @@ renderer.render(scene, camera);
 // Load an audio clip (background music) using the loadAudio function
 const audioClip = await
 loadAudio('../assets/sounds/shoe1.mp3');
-=======
-import { loadGLTF, loadAudio } from "../../libs/loader.js";
-const THREE = window.MINDAR.IMAGE.THREE;
-document.addEventListener('DOMContentLoaded', () => {
-const start = async () => {
-// Create a new MindARThree instance and configure it
-const mindarThree = new window.MINDAR.IMAGE.MindARThree({
-container: document.body,
-imageTargetSrc: 'product/assets/sounds/sound1.mp3',
-});
-// Extract the renderer, scene, and camera from the MindARThree instance
-const {renderer, scene, camera} = mindarThree;
-// Add a hemisphere light to illuminate the AR scene
-const light = new THREE.HemisphereLight(0xffffff, 0xbbbbff, 1);
-scene.add(light);
-// Load a 3D model (raccoon) using the loadGLTF function and configure its scale and position
-const gltf = await loadGLTF('../../assets/models/musicband-raccoon/scene.gltf');
-gltf.scene.scale.set(0.1, 0.1, 0.1);
-gltf.scene.position.set(0, -0.4, 0);
-// Add an AR anchor for the raccoon and attach the raccoon model to it
-const anchor = mindarThree.addAnchor(0);
-anchor.group.add(gltf.scene);
-// Load an audio clip (background music) using the loadAudio function
-const audioClip = await
-loadAudio('../../assets/sounds/musicband-background.mp3');
->>>>>>> ed5c32e7480e097a99d7e8d2d1359d622fc74036
 // Create an audio listener and attach it to the camera
 const listener = new THREE.AudioListener();
 camera.add(listener);
@@ -80,19 +53,6 @@ audio.play();
 anchor.onTargetLost = () => {
 audio.pause();
 }
-<<<<<<< HEAD
 // Call the start func on to begin the AR experience when the DOM content is loaded 
 start(); 
 });
-=======
-// Start the MindARThree AR experience
-await mindarThree.start();
-// Set up a rendering loop using the Three.js renderer
-renderer.setAnimationLoop(() => {
-renderer.render(scene, camera);
-});
-};
-// Call the start function to begin the AR experience when the DOM content is loaded
-start();
-});
->>>>>>> ed5c32e7480e097a99d7e8d2d1359d622fc74036
