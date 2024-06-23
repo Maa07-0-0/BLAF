@@ -18,7 +18,13 @@ document.addEventListener('DOMContentLoaded', () => {
       scene.add(light);
 
       // Load a 3D model (men1) using the loadGLTF function and configure its scale and position
-      const men1 = await loadGLTF('assets/models/men1/scene.gltf');
+      let men1;
+      try {
+        men1 = await loadGLTF('assets/models/men1/scene.gltf');
+      } catch (error) {
+        console.error('Error loading 3D model:', error);
+        throw error; // Rethrow to be caught by the outer try-catch
+      }
       men1.scene.scale.set(0.1, 0.1, 0.1);
       men1.scene.position.set(0, -0.4, 0);
 
@@ -27,7 +33,13 @@ document.addEventListener('DOMContentLoaded', () => {
       men1Anchor.group.add(men1.scene);
 
       // Load an audio clip (background music) using the loadAudio function
-      const audioClip = await loadAudio('assets/sounds/shoe1.mp3');
+      let audioClip;
+      try {
+        audioClip = await loadAudio('assets/sounds/shoe1.mp3');
+      } catch (error) {
+        console.error('Error loading audio clip:', error);
+        throw error; // Rethrow to be caught by the outer try-catch
+      }
 
       // Create an audio listener and attach it to the camera
       const listener = new THREE.AudioListener();
@@ -51,7 +63,12 @@ document.addEventListener('DOMContentLoaded', () => {
       };
 
       // Start the MindARThree AR experience
-      await mindarThree.start();
+      try {
+        await mindarThree.start();
+      } catch (error) {
+        console.error('Error starting MindARThree:', error);
+        throw error; // Rethrow to be caught by the outer try-catch
+      }
 
       // Set up a rendering loop using the Three.js renderer to continuously render the AR scene
       renderer.setAnimationLoop(() => {
