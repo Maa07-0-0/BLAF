@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
       // Load a 3D model (men1) using the loadGLTF function and configure its scale and position
       const men1 = await loadGLTF('assets/models/men1/scene.gltf');
       men1.scene.scale.set(0.4, 0.4, 0.4);
-      men1.scene.position.set(0, 0, 0);
+      men1.scene.position.set(0, -0.5, 0);
 
       // Add an AR anchor for the men1 and attach the men1 model to it
       const men1Anchor = mindarThree.addAnchor(0);
@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', () => {
       // Set up a rendering loop using the Three.js renderer to continuously render the AR scene
       renderer.setAnimationLoop(() => {
         // Rotate the model around its vertical axis (Y-axis)
-        men1.scene.rotation.y += 0.001;
+        men1.scene.rotation.y += 0.01;
 
         // Render the scene
         renderer.render(scene, camera);
