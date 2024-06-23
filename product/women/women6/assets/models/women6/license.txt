@@ -1,0 +1,11 @@
+Model Information:
+* title:	Pointy Stiletto V2
+* source:	https://sketchfab.com/3d-models/pointy-stiletto-v2-b1be72f5b9434394a091bff4c7030131
+* author:	hiirusama (https://sketchfab.com/hiirusama)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Pointy Stiletto V2" (https://sketchfab.com/3d-models/pointy-stiletto-v2-b1be72f5b9434394a091bff4c7030131) by hiirusama (https://sketchfab.com/hiirusama) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
