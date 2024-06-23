@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Create a new MindARThree instance and configure it
     const mindarThree = new window.MINDAR.IMAGE.MindARThree({
       container: document.body,
-      imageTargetSrc: 'product/assets/targets/men/men1.mind'
+      imageTargetSrc: 'assets/targets/men/men1.mind'
     });
 
     // Extract the renderer, scene, and camera from the MindARThree instance
@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
     scene.add(light);
 
     // Load a 3D model (men1) using the loadGLTF function and configure its scale and position
-    const men1 = await loadGLTF('product/assets/models/men1/scene.gltf');
+    const men1 = await loadGLTF('assets/models/men1/scene.gltf');
     men1.scene.scale.set(0.1, 0.1, 0.1);
     men1.scene.position.set(0, -0.4, 0);
 
@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
     men1Anchor.group.add(men1.scene);
 
     // Load an audio clip (background music) using the loadAudio function
-    const audioClip = await loadAudio('product/assets/sounds/shoe1.mp3');
+    const audioClip = await loadAudio('assets/sounds/shoe1.mp3');
 
     // Create an audio listener and attach it to the camera
     const listener = new THREE.AudioListener();
