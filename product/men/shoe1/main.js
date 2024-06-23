@@ -5,7 +5,7 @@ const start = async () => {
 // Create a new MindARThree instance and configure it
 const mindarThree = new window.MINDAR.IMAGE.MindARThree({
 container: document.body,
-imageTargetSrc: '../../assets/targets/musicband.mind',
+imageTargetSrc: 'product/assets/sounds/sound1.mp3',
 });
 // Extract the renderer, scene, and camera from the MindARThree instance
 const {renderer, scene, camera} = mindarThree;
