@@ -1,4 +1,4 @@
-import { loadGLTF } from "../../libs/loader.js"; 
+import { loadGLTF, loadAudio } from "../../libs/loader.js"; 
 const THREE = window.MINDAR.IMAGE.THREE; 
 
 document.addEventListener('DOMContentLoaded', () => { 
@@ -33,7 +33,26 @@ renderer.setAnimationLoop(() => {
 renderer.render(scene, camera); 
 }); 
 } 
-
+// Load an audio clip (background music) using the loadAudio function
+const audioClip = await
+loadAudio('../assets/sounds/shoe1.mp3');
+// Create an audio listener and attach it to the camera
+const listener = new THREE.AudioListener();
+camera.add(listener);
+// Create a positional audio source and attach it to the AR anchor's group
+const audio = new THREE.PositionalAudio(listener);
+anchor.group.add(audio);
+// Set the audio buffer to the loaded audio clip, configure audio properties
+audio.setBuffer(audioClip);
+audio.setRefDistance(100); // Reference distance for audio falloff
+audio.setLoop(true); // Loop the audio
+// Define actions to play and pause audio when the target is found or lost
+anchor.onTargetFound = () => {
+audio.play();
+}
+anchor.onTargetLost = () => {
+audio.pause();
+}
 // Call the start func on to begin the AR experience when the DOM content is loaded 
 start(); 
 });
